@@ -106,13 +106,12 @@ public class ParcialFinal {
                                 maxColumn2Value = column2Value;
                             }
                         } catch (NumberFormatException e) {
-                            // Ignore invalid values in column 2
                         }
                     }
                 }
             }
         }
 
-        System.out.println("El mayor valor en la columna 2 es: " + maxColumn2Value);
+        System.out.println("La hotra es es: " + maxColumn2Value);
     }
 }
